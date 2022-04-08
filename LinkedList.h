@@ -98,8 +98,8 @@ void LinkedList<T>::Print(){
 	Node<T> *i;
 	int index = 1;
 
-	if (current_size != 0){
-		for( i = first; i != NULL; i=i->link){
+	if (current_size != 0){ // 빈 list가 아니라면
+		for( i = first; i != NULL; i=i->link){ // linkedlist의 모든 node를 탐색하며 원소 print
 			cout << "[" << index << "|";
 			cout << i -> data << "]";
 			if (index != current_size) {
