@@ -9,7 +9,7 @@ void prnMenu(){ // loop마다 자동 출려을 위한 함수
 	cout<<"원하시는 메뉴를 골라주세요: ";
 }
 
-int main(){
+int main(){ // linkedlist, stack을 test하는 main 함수이다
 	    int mode, selectNumber, tmpItem;
 		LinkedList<int> *p;
 		bool flag = false;
